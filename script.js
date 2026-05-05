@@ -1,12 +1,4 @@
-// --- ส่วนของการคลิกปุ่มเดิม ---
-const projectButton = document.querySelector('.js-btn');
-if (projectButton) {
-    projectButton.addEventListener('click', function() {
-        alert('ยินดีด้วย! คุณได้เรียนรู้พื้นฐานการใช้ JavaScript แล้ว');
-        this.textContent = 'ขอบคุณที่คลิก!';
-        this.style.backgroundColor = '#4CAF50';
-    });
-}
+// --- ส่วนของการคลิกปุ่มเดิม (ลบออกแล้วเนื่องจากเปลี่ยนเป็นลิ้งก์) ---
 
 // --- ส่วนของ Light/Dark Mode ---
 const themeToggle = document.getElementById('theme-toggle');
