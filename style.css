@@ -177,6 +177,7 @@ h2 {
     border-radius: 8px;
     cursor: pointer;
     font-weight: 500;
+    text-decoration: none;
     transition: transform var(--transition), filter var(--transition);
 }
 
